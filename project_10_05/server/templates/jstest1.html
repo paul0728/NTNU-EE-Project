@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Functions</h2>
+
+<p>This example calls a function which performs a calculation, and returns the result:</p>
+<p id="demo"></p>
+<script>
+function myFunction() {
+ var a=[2,3,4,5,6]
+ var j=[9,3,8,4,8,3,8,3,98,10]
+ for(i=0;i<a.length;i++)
+	j[a[i]]=i;
+ console.log(a[0]);
+ console.log(j[2]);
+ return j[2];
+}
+document.getElementById("demo").innerHTML=myFunction();
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>魚類辨識、偵測長度系統</title>      
+</head>
+
+<body onload="clear()">
+<label for="species">魚種:</label>
+<input type="text"id=name name="name"onclick="this.value=''"list="name_">
+<datalist id="name_">
+  <option value="Larimichthys_Crocea"></option>
+  <option value="Nemipterus_virgatus"></option>
+  <option value="Pampus_argenteus"></option>
+  <option value="Plectropomus_leopardus"></option>
+  <option value="Psenopsis_anomala"></option>
+</datalist>
+<br>
+<label for="length">魚長(公分):</label>
+<input type="text"id=length name="length"onclick="this.value=''"list="length_">
+<datalist id="length_">
+  <option value="0-49"></option>
+  <option value="50-99"></option>
+  <option value="100-149"></option>
+  <option value="150-199"></option>
+  <option value="200-249"></option>
+  <option value="250-299"></option>
+  <option value="?300"></option>
+</datalist>
+<br>
+
+<button onclick="pageLoad()">搜尋</button>
+<table id="myTable"width="700" border="1">
+  <tr class="header">
+    <th>id</th>
+    <th>image</th>
+    <th>name</th>
+    <th>length</th>
+  </tr>
+</table>
+</body>
+</html>
