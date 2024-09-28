@@ -5,16 +5,10 @@
 ![Device picture](裝置圖片.jpg)
 
 # Demo(gui)
-<video width="320" height="240" controls>
-  <source src="gui_demo_v.mp4" type="video/mp4">
-  Your browser does not support video playback.
-</video>
+[Download GUI Demo Video](gui_demo_v.mp4)
 
 # Demo(webpage)
-<video width="320" height="240" controls>
-  <source src="webpage_demo_v.mp4" type="video/mp4">
-  Your browser does not support video playback.
-</video>
+[Download Webpage Demo Video](webpage_demo_v.mp4)
 
 # Link
 * [Poster](專題競賽海報v1.pptx)
