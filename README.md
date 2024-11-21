@@ -12,5 +12,5 @@
 
 # Link
 * [Poster](專題競賽海報v1.pptx)
-* [Slide](電機專題報告v2.pptx)
+* [Slide](電機專題報告.pptx)
 * [Report](專題書面報告final.docx)
